@@ -12,7 +12,7 @@ Tampilan Activity Penemu Kopi</br>
 ![screenshot_20181205-230118](https://user-images.githubusercontent.com/42840596/49584959-8e6dcc00-f98f-11e8-9fbc-e1441f434804.png)</br>
 Tampilan Activity Macam-Macam Kopi(Layout yang berinteraksi dengan API)</br>
 ![screenshot_20181205-230136](https://user-images.githubusercontent.com/42840596/49584961-90378f80-f98f-11e8-86fb-748b586e69f4.png)</br>
-Tampilan Detil Berita</br>
+Tampilan Detil Kopi</br>
 ![screenshot_20181205-230209](https://user-images.githubusercontent.com/42840596/49584969-9299e980-f98f-11e8-802b-ce69c50d40d1.png)</br>
 Tampilan About-Me</br>
 ![screenshot_20181205-230218](https://user-images.githubusercontent.com/42840596/49584975-94fc4380-f98f-11e8-890e-4551cfc9504a.png)</br>
