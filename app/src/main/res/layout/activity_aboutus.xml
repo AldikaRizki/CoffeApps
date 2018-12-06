@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/cokmud"
+    tools:context=".AboutusActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTentang"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Apa Yang Saya Buat?"
+        android:gravity="center"
+        android:textColor="@color/abu"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvIsi"
+        android:layout_below="@+id/tvTentang"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/abu"
+        android:textSize="15sp"
+
+        android:text="@string/Aboutus"/>
+
+        <TextView
+            android:id="@+id/tvTerimakasih"
+            android:layout_below="@id/tvIsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/Aboutus2"
+            android:textSize="15sp"
+            android:textColor="@color/abu"
+            android:textStyle="italic"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivProfile"
+            android:layout_below="@+id/tvTerimakasih"
+            android:layout_centerHorizontal="true"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/aldika"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:id="@+id/tvUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aldika Rizki"
+            android:textStyle="bold|italic"
+            android:layout_below="@id/ivProfile"
+            android:layout_centerHorizontal="true"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/tvNim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(160101061)"
+            android:textStyle="italic"
+            android:layout_below="@id/tvUser"
+            android:layout_centerHorizontal="true"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/tvfollow"
+            android:layout_below="@+id/tvNim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Follow Me :"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"/>
+        <ImageView
+            android:id="@+id/ivig"
+            android:layout_below="@+id/tvfollow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:src="@drawable/ig" />
+
+        <ImageView
+            android:id="@+id/ivfb"
+            android:layout_alignLeft="@+id/ivig"
+            android:layout_marginRight="120dp"
+            android:layout_below="@+id/tvfollow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fb"/>
+
+
+
+    </RelativeLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

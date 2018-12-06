@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cokmud"
+    tools:context=".PenemuKopiActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.synnapps.carouselview.CarouselView
+                android:id="@+id/cvSejarah"
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                android:layout_alignParentTop="true"
+                app:fillColor="#FFFFFFFF"
+                app:pageColor="#00000000"
+                app:radius="6dp"
+                app:slideInterval="3000"
+                app:strokeColor="#FF777777"
+                app:strokeWidth="1dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_below="@id/cvSejarah">
+                <TextView
+                    android:id="@+id/Nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="KHALID"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvSejarah1"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_below="@+id/cvSejarah"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:text="@string/Penemu_Kopi"/>
+                <TextView
+                    android:id="@+id/tvSejarah2"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_below="@+id/tvSejarah1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:text="@string/Penemu_Kopi2"/>
+                <com.synnapps.carouselview.CarouselView
+                    android:id="@+id/cvSejarah2"
+                    android:layout_width="match_parent"
+                    android:layout_height="249dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_alignParentTop="true"
+                    app:fillColor="#FFFFFFFF"
+                    app:pageColor="#00000000"
+                    app:radius="6dp"
+                    app:slideInterval="3000"
+                    app:strokeColor="#FF777777"
+                    app:strokeWidth="1dp"/>
+                <TextView
+                    android:id="@+id/tvSejarah3"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_below="@+id/cvSejarah2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:text="@string/Penemu_Kopi3"/>
+                <TextView
+                    android:id="@+id/tvSejarah4"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_below="@+id/tvSejarah3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:text="@string/Penemu_Kopi4"/>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>
